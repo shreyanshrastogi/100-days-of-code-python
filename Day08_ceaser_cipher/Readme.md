@@ -7,3 +7,4 @@
     🔐 Handled edge cases in encryption/decryption by ignoring spaces, numbers, and special symbols.
 
     🔁 Implemented game restart logic using a while loop, enabling seamless replay functionality.
+    list.index(item) gives the index of that item in a list
