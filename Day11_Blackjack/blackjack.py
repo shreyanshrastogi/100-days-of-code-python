@@ -34,7 +34,7 @@ def game():
             if sum(user_card) > 21:
                 print("you have gone over 21.")
 
-                break
+                return user_card,comp_card
             another = input("do u want another card: y or n \n")
             if another == "y":
                 deal_card(user_card, 1)
@@ -56,10 +56,14 @@ def game():
 
         break
 
-    return
+    return user_card,comp_card
 
 while True:
-    game()
+    user_card,comp_card=game()
+    print("computer's hand:" + str(comp_card))
+    print("computer's score:" + str(sum(comp_card)))
+    print("user's hand:" + str(user_card))
+    print("user's score:" + str(sum(user_card)))
 
     ask=input("do you want to play again?: y or n")
     if ask=="n":
