@@ -1,0 +1,2 @@
+Coded a coffee machine simulator in Python, It uses dictionaries to manage state and handles the complete transaction lifecycle of resource validation, payment processing, and change calculation. Can also provide report, and has a turn off function.
+ #Python #Coding
